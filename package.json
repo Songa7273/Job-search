@@ -1,0 +1,28 @@
+{
+  "name": "job-search",
+  "version": "1.0.0",
+  "description": "A full-stack job search application that uses the Adzuna API to fetch and display job listings. Built with Node.js, Express.js, and vanilla JavaScript.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://%20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%20@github.com/Songa7273/Job-search.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Songa7273/Job-search/issues"
+  },
+  "homepage": "https://github.com/Songa7273/Job-search#readme",
+  "dependencies": {
+    "axios": "^1.8.4",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "path": "^0.12.7"
+  }
+}

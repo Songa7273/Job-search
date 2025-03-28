@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JobSearch</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>JobSearch</h1>
+            <p>Find Job today</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="search-section">
+            <div class="search-container">
+                <input type="text" id="job-title" placeholder="Job title, keywords">
+                <input type="text" id="location" placeholder="City, state, or country">
+                <button id="search-btn">Search Jobs</button>
+            </div>
+
+            <div class="filters-toggle">
+                <button id="toggle-filters">Advanced Filters <i class="fas fa-sliders-h"></i></button>
+            </div>
+
+            <div class="filters-container" id="filters-container">
+                <div class="filter-group">
+                    <h3>Salary Range ($)</h3>
+                    <div class="salary-range">
+                        <input type="number" id="salary-min" placeholder="Min">
+                        <span>to</span>
+                        <input type="number" id="salary-max" placeholder="Max">
+                    </div>
+                </div>
+
+                <div class="filter-group">
+                    <h3>Job Type</h3>
+                    <div class="job-type-filters">
+                        <label><input type="checkbox" id="full-time"> Full-time</label>
+                        <label><input type="checkbox" id="part-time"> Part-time</label>
+                        <label><input type="checkbox" id="contract"> Contract</label>
+                        <label><input type="checkbox" id="remote"> Remote</label>
+                    </div>
+                </div>
+
+                <div class="filter-group">
+                    <h3>Sort By</h3>
+                    <select id="sort-by">
+                        <option value="relevance">Relevance</option>
+                        <option value="salary">Highest Salary</option>
+                        <option value="date">Most Recent</option>
+                    </select>
+                </div>
+            </div>
+        </section>
+
+        <section class="results-section">
+            <div class="results-header">
+                <h2 id="results-count">0 Jobs Found</h2>
+                <div class="loading" id="loading-indicator" style="display: none;">
+                    <div class="spinner"></div>
+                    <span>Loading jobs...</span>
+                </div>
+            </div>
+
+            <div class="job-listings" id="job-listings">
+                <!-- Job listings will be inserted here by JavaScript -->
+                <div class="no-results">
+                    <i class="fas fa-search"></i>
+                    <p>Enter a job title and location to start your search</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Job Details Modal -->
+    <div class="modal" id="job-modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <div class="modal-body" id="modal-body">
+                <!-- Job details will be inserted here by JavaScript -->
+            </div>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
