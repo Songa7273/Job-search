@@ -62,6 +62,4 @@ https://rapidapi.com/letscrape-6bRBa3QguO5/api/jsearch
 
 ## License
 
-MIT License 
-
-##Demo video link
+MIT ##Demo video link: https://www.loom.com/share/059020195e1c41e88ba6ff03cd709c30?sid=2f5d8eca-b496-44af-b334-8edbf34c6b6a
