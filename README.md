@@ -1,3 +1,4 @@
+
 # Job Search Application
 
 A full-stack job search application that uses the JSearch API to fetch and display job listings. Built with Node.js and  Express.js for backend and html,css and javascript for frontend.
@@ -61,5 +62,12 @@ This application uses the JSearch Job Search API. For more information, visit:
 https://rapidapi.com/letscrape-6bRBa3QguO5/api/jsearch
 
 ## License
+MIT
 
+<<<<<<< HEAD
 MIT ##Demo video link: https://www.loom.com/share/059020195e1c41e88ba6ff03cd709c30?sid=2f5d8eca-b496-44af-b334-8edbf34c6b6a
+=======
+
+##Demo video link
+: https://www.loom.com/share/059020195e1c41e88ba6ff03cd709c30?sid=2f5d8eca-b496-44af-b334-8edbf34c6b6a
+>>>>>>> c10afafd1c747372c5030152cfc16ce27a56949c
